@@ -240,8 +240,8 @@ with st.sidebar:
                                         accept_multiple_files=False)
     st.write("#### Realtime Detection")
     if st.button("Realtime Detect using Camera"):
-        # Open the link directly
-        webbrowser.open_new_tab("https://cameradetect.netlify.app/")
+        # Open the link in a new tab using JavaScript
+        st.markdown(f'<a href="https://cameradetect.netlify.app/" target="_blank">Realtime Detection Link</a>', unsafe_allow_html=True)
 
     
         
