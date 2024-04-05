@@ -246,24 +246,24 @@ with st.sidebar:
     
         
     ## Add in sliders.
-    confidence_threshold = st.slider("Confidence threshold (%): What is the minimum acceptable confidence level for displaying a bounding box?", 0, 100, 40, 1)
-    overlap_threshold = st.slider("Overlap threshold (%): What is the maximum amount of overlap permitted between visible bounding boxes?", 0, 100, 30, 1)
+    #confidence_threshold = st.slider("Confidence threshold (%): What is the minimum acceptable confidence level for displaying a bounding box?", 0, 100, 40, 1)
+    #overlap_threshold = st.slider("Overlap threshold (%): What is the maximum amount of overlap permitted between visible bounding boxes?", 0, 100, 30, 1)
 
-    col_bbox, col_blur, col_labels = st.columns(3)
+    #col_bbox, col_blur, col_labels = st.columns(3)
     
-    with col_bbox:
+    #with col_bbox:
         show_bbox = st.radio("Show Bounding Boxes:",
                             options=["Yes", "No"],
                             index=0,
                             key="include_bbox")
 
-    with col_blur:
+    #with col_blur:
         amount_blur = st.radio("Amount of Blur:",
                                 options=["Low", "High"],
                                 index=1,
                                 key="amount_blur")
 
-    with col_labels:
+    #with col_labels:
         show_class_label = st.radio("Show Class Labels:",
                                     options=["Show Labels", "Hide Labels"],
                                     index=0,
