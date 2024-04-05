@@ -11,7 +11,7 @@ import pandas as pd
 from roboflow import Roboflow
 
 # Set default values
-DEFAULT_PROJECT_URL = "https://app.roboflow.com/mitali-bafna-hwmt7/drone-76fj8/1"
+DEFAULT_PROJECT_URL = "https://app.roboflow.com/kkwagh-63ouy/kkwagh-group15/1"
 DEFAULT_PRIVATE_API_KEY = "VXt2m4b0MAmxKtIYMcHZ"
 
 # Initialize session state with default values
